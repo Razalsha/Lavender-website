@@ -1,0 +1,86 @@
+header{
+    background-image: url(./lavender-4765498_1920.jpg);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: var(--font-body-family);
+    
+}
+
+@media(max-width:991px){
+    .sidebar{
+        background-color: rgb(202, 172, 231);
+        backdrop-filter: blur(10px);
+    }
+}
+/* products */
+
+/* .products {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between; 
+} */
+
+/* .product img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px; 
+} */
+
+/* .product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+} */
+
+/* .product p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px; 
+} */
+.end{
+    margin-top: 1900px;
+}
+#products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns of equal width */
+    gap: 20px; /* Space between grid items */
+    padding: 20px; /* Padding around the grid */
+}
+
+.product {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding-top: 15px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.product img {
+    max-width: 40%;
+    border-radius: 10px;
+}
+.product h3 {
+    margin-top: 15px;
+    font-size: 15px;
+   
+}
+.product p {
+    font-size: 14px;
+    color: #333;
+    margin-top: 30px;
+}

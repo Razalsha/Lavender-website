@@ -1,0 +1,9 @@
+body{
+    background-image: url(./lavenders-6484003_1920.jpg);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: var(--font-body-family);
+    
+}

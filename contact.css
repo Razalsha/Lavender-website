@@ -1,0 +1,39 @@
+body{
+    top: 0;
+    left: 0;
+    font-family: var(--font-body-family);
+    background-color: rgb(137, 43, 226);
+}
+.contact{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.info{
+    color:rgb(137, 43, 226) ;
+ background-color:rgba(246, 229, 249, 0.834);
+ font-family: var(--font-body-family);
+ margin-top: 50px;
+ padding: 20px;
+ width: 350px;
+ align-items: center;
+ text-align: center;
+ border: 2px solid rgb(63, 15, 74);
+ border-radius: 5px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    
+}
+button{
+    background-color: rgb(137, 43, 226);
+    color: aliceblue;
+    padding: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 10px;
+    margin-left: -250px;
+}
